@@ -1,0 +1,605 @@
+/*----Global----*/
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: oswald;
+}
+
+
+/****body and background****/
+
+body
+{
+	background-color: #1C74C1;
+	background-image: url('/elements/cloud.png');
+	background-position: top right;
+	background-size: 30%;
+	background-repeat: no-repeat;
+}
+
+
+
+
+/**End of body and background**/
+
+
+
+
+
+
+.header
+{
+
+	height: 100vh;
+	width: 90%;
+	margin: 20px auto;
+	font-family: Oswald;
+}
+
+
+/**NAVBAR CUSTOMIZATION**/
+
+.nav
+{
+
+	padding: 0.8em;
+	width: 70%;
+	display: inline-flex;
+	align-items: center;
+	justify-content: space-between;
+	font-size: 1em;
+}
+
+.burger
+{
+	display: none;
+}
+
+.nav ul
+{
+	
+	display: flex;
+	justify-items: center;
+	justify-content: space-evenly;
+}
+
+.nav li 
+{
+	margin-right: 50px;
+	list-style-type: none;
+}
+/****media query*****/
+
+
+
+
+.nav li a
+{
+	text-align: center;
+	text-decoration: none;
+	border-radius: 10px;	
+	padding: 10px;
+	color: white;
+}
+
+.nav li a:hover
+{
+	border-radius: 20px;
+	background-color: white;
+	color: #1C74C1;
+}
+
+
+
+
+
+/*-----intro-----*/
+.intro
+{
+	display: inline-block;
+}
+.introleft
+{
+	width: 60%;
+	float: left;
+}
+
+#internshipfair
+{
+	width: 75%;
+
+}
+
+
+
+.introright
+{
+	width: 40%;
+	float: right;
+
+}
+
+.introright img
+{
+	width: 100%;
+}
+
+/*--------buttons-------*/
+
+.introleft button
+{
+	display: inline-block;
+	position: relative;
+	width: 200px;
+	height: 70px;
+}
+
+.knowmore
+{
+	color: white;
+	background-color: #175B96;
+	border: none;
+	box-shadow: 14px 11px 12px -3px rgba(0,0,0,1);
+	border-radius: 50px;
+	font-size: 20px;
+	margin: 40px;
+}
+
+.knowmore:hover
+{
+	box-shadow: none;
+	transform: translate(+3px,3px);
+}
+
+
+.registernow
+{
+	color: white;
+	background-color: #179663;
+	border: none;
+	box-shadow: 14px 11px 12px -3px rgba(0,0,0,1);
+	border-radius: 50px;
+	font-size: 20px;
+	margin: 40px;
+}
+
+.btns img
+{
+	width: 30px;
+}
+
+
+.registernow:hover
+{
+	box-shadow: none;
+	transform: translate(+3px,3px);
+}
+
+.break1
+{
+
+	width: 90%;
+	margin: auto;
+}
+
+.break1 img
+{
+
+	width: 80%;
+	display: block;
+	margin: auto;
+}
+
+
+
+/*-------about-------*/
+
+.about
+{
+	width: 100%;
+	background-color: white;
+	height: 100vh;
+	background-image: url(/elements/VECTOR.png);
+	background-position: bottom left;
+	background-size: 30%;
+	background-repeat: no-repeat;
+}
+
+.content
+{
+	width: 1000px;
+	float: right;
+	padding: 100px;
+
+}
+.content h1
+{
+	text-align: center;
+}
+
+.content h1 span
+{
+	color: #1C74C1;
+}
+
+.content p 
+{
+	margin: 75px;
+	font-size: 20px;
+}
+
+.content p span
+{
+	color: red;
+}
+
+.break2
+{
+
+	width: 90%;
+	margin: auto;
+}
+
+.break2 img
+{
+
+	width: 80%;
+	display: block;
+	margin: auto;
+}
+
+.register
+{
+	background-color: white;
+	height: 45vh;
+	text-align: center;
+	padding: 3vh;
+}
+
+.register h1
+{
+	font-family: Poppins;
+	font-size: 104px;
+}
+
+.down
+{
+	padding: 10px 30px;
+}
+
+
+.footer
+{
+	font-family: Arial, Helvetica, sans-serif;
+	width: 100%;
+	height: 15vh;
+	background-color: black;
+	display: flex;
+}
+
+.conditions
+{
+
+	width: 80%;
+	display: flex;
+	justify-content: space-around;
+	align-self: end;
+	margin: auto;
+}
+
+.conditions a
+{
+	text-decoration: none;
+	color: white;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/*----------------Making Responsive--------*/
+
+@media only screen and (min-width: 960px) {
+	/* styles for browsers larger than 960px; */
+}
+@media only screen and (min-width: 1440px) {
+	/* styles for browsers larger than 1440px; */
+}
+@media only screen and (min-width: 2000px) {
+	/* for sumo sized (mac) screens */
+}
+@media only screen and (max-device-width: 480px) 
+
+{
+   /* styles for mobile browsers smaller than 480px; (iPhone) */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    body
+{
+
+	background-color: #1C74C1;
+	background-image: url('./elements/cloud.png');
+	background-position: top right;
+	background-size: 30%;
+	background-repeat: no-repeat;
+}
+
+
+
+
+/**End of body and background**/
+
+
+.header
+{
+	height: 100vh;
+	width: 90%;
+	margin: 20px auto;
+	font-family: Oswald;
+}
+
+
+/**NAVBAR CUSTOMIZATION**/
+
+.nav
+{
+
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 50%;
+	left: 0;
+	transition: 0.5s;
+}
+
+.nav ul
+{
+	display: block;
+}
+
+.burger
+{
+	display: inline-block;
+	cursor: pointer;
+}
+
+
+
+/****media query*****/
+
+
+
+
+.nav li a
+{
+	text-align: center;
+	text-decoration: none;
+	border-radius: 10px;	
+	padding: 10px;
+	color: white;
+}
+
+.nav li a:hover
+{
+	border-radius: 20px;
+	background-color: white;
+	color: #1C74C1;
+}
+
+
+
+
+
+/*-----intro-----*/
+.intro
+{
+	display: inline-block;
+}
+.introleft
+{
+	width: 60%;
+	float: left;
+}
+
+#internshipfair
+{
+	width: 75%;
+
+}
+
+
+
+.introright
+{
+	width: 40%;
+	float: right;
+
+}
+
+.introright img
+{
+	width: 100%;
+}
+
+/*--------buttons-------*/
+
+.introleft button
+{
+	display: inline-block;
+	position: relative;
+	width: 200px;
+	height: 70px;
+}
+
+.knowmore
+{
+	color: white;
+	background-color: #175B96;
+	border: none;
+	box-shadow: 14px 11px 12px -3px rgba(0,0,0,1);
+	border-radius: 50px;
+	font-size: 20px;
+	margin: 40px;
+}
+
+.knowmore:hover
+{
+	box-shadow: none;
+	transform: translate(+3px,3px);
+}
+
+
+.registernow
+{
+	color: white;
+	background-color: #179663;
+	border: none;
+	box-shadow: 14px 11px 12px -3px rgba(0,0,0,1);
+	border-radius: 50px;
+	font-size: 20px;
+	margin: 40px;
+}
+
+.btns img
+{
+	width: 30px;
+}
+
+
+.registernow:hover
+{
+	box-shadow: none;
+	transform: translate(+3px,3px);
+}
+
+.break1
+{
+
+	width: 90%;
+	margin: auto;
+}
+
+.break1 img
+{
+
+	width: 80%;
+	display: block;
+	margin: auto;
+}
+
+
+
+/*-------about-------*/
+
+.about
+{
+	width: 100%;
+	background-color: white;
+	height: 100vh;
+	background-image: url(/elements/VECTOR.png);
+	background-position: bottom left;
+	background-size: 30%;
+	background-repeat: no-repeat;
+}
+
+.content
+{
+	width: 1000px;
+	float: right;
+	padding: 100px;
+
+}
+.content h1
+{
+	text-align: center;
+}
+
+.content h1 span
+{
+	color: #1C74C1;
+}
+
+.content p 
+{
+	margin: 75px;
+	font-size: 20px;
+}
+
+.content p span
+{
+	color: red;
+}
+
+.break2
+{
+
+	width: 90%;
+	margin: auto;
+}
+
+.break2 img
+{
+
+	width: 80%;
+	display: block;
+	margin: auto;
+}
+
+.register
+{
+	background-color: white;
+	height: 45vh;
+	text-align: center;
+	padding: 3vh;
+}
+
+.register h1
+{
+	font-family: Poppins;
+	font-size: 104px;
+}
+
+.down
+{
+	padding: 10px 30px;
+}
+
+
+.footer
+{
+	font-family: Arial, Helvetica, sans-serif;
+	width: 100%;
+	height: 15vh;
+	background-color: black;
+	display: flex;
+}
+
+.conditions
+{
+
+	width: 80%;
+	display: flex;
+	justify-content: space-around;
+	align-self: end;
+	margin: auto;
+}
+
+.conditions a
+{
+	text-decoration: none;
+	color: white;
+	font-family: Arial, Helvetica, sans-serif;
+}
+}
